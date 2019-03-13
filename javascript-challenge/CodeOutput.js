@@ -11,8 +11,9 @@ document.write(z);
 /*
 Let`s look at the code.
 At first, a = 10.
-Then we have to calculate the modulos of 10 % 2 = 0 . 
-Minus zero is still 0, so the answer is 0.
+Then we have to calculate the modulos  10 % 2 = 0 . 
+Now, var z = var z - 0 since we already know the modulos.
+The answer is 0.
 
 Find the simple  modulo calculator below
 https://www.miniwebtool.com/modulo-calculator/.
