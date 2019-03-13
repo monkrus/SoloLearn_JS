@@ -17,10 +17,10 @@ function variables() {
 
 variables();
 
-/// return error because second (i) outside for loop is not accessible/defined
+/// returns error because second (i) outside for loop is not accessible/defined
 
 function variables() {
-    //var variable have access outside the loop
+    //var variable has access outside the loop
     for (var i = 0; i < 3; i++) {
         console.log(i * 2)
     }
