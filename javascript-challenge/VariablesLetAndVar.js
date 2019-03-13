@@ -7,33 +7,33 @@
  * of the console.log outside of the loop?
  * */
 
-function variables() {
+(function variables() {
     //let variable have access inside the loop
     for (let i = 0; i < 3; i++) {
         console.log(i * 2)
     }
     console.log(i)
-}
+})();
 
-variables();
 
-/// return error because second (i) outside for loop is not accessible/defined
+/**
+ //return error because second (i) outside for loop is not accessible/definedz
+ * */
 
-function variables() {
+(function variables() {
     //var variable have access outside the loop
     for (var i = 0; i < 3; i++) {
         console.log(i * 2)
     }
     console.log(i)
-}
+})();
 
-variables();
-
-// return 0
-// 2
-// 4
-// 3
-// 0
-// 2
-// 4
-// 3
+/** return 0
+ // 2
+ // 4
+ // 3
+ // 0
+ // 2
+ // 4
+ // 3
+ */
