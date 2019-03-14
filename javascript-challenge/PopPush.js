@@ -22,4 +22,4 @@ var x = Lang.pop();
 //pop() - delete and return the latest element from an array
 var y = Lang.push("kotlin");
 //push return length of an array
-console.log(y + x);
+console.log(y + x); //5python
