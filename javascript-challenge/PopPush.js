@@ -1,15 +1,15 @@
 /**
- * Explanation in progress
- * We have an array `Lang`
+ * We have an array `Lang`.
  *
- * From theory we know that pop() will delete and return Number of the latest element from array
+ * As a rule, pop() method will remove and then return 
+ * the last element from array,
  * in our case it is `python`
  *
- * so x will be always = 'python'
+ * So x will be always = 'python'
  *
- * We know that push() is adding element to the end of an array
- *
- * and also push() return length of the new array
+ * We know that push() method
+ * is adding new element to the end of an array
+ * and returns a NEW length.
  *
  * in our case y will be always = 5
  *
@@ -19,7 +19,9 @@
 
 var Lang = ["java", "C", "С++", "C#", "python"];
 var x = Lang.pop();
-//pop() - delete and return the latest element from an array
+//pop() - delete and return the last element from an array
 var y = Lang.push("kotlin");
-//push return length of an array
+//push returns the length of an array
 console.log(y + x); //5python
+
+//NB! If you call pop() method on an empty array, it returns as undefined.
